@@ -4,10 +4,15 @@ import Griditem from './Griditem';
 import styles from './Grid.module.css';
 
 export default class App extends React.Component {
+    updateClicked(id) {
+        this.props.updateClicked(id);
+    }
+    
     renderFacts() {
         return this.props.facts.map(item => 
             <Griditem key={item.id}
             fact={item}
+            updateClicked={this.updateClicked.bind(this)}
             />
             )
     }

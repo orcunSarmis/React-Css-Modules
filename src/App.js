@@ -18,12 +18,18 @@ class App extends Component {
       facts,
     }
   }
+
+  updateClicked(id) {
+    let stateCopy = Object.assign({}, this.state);
+    stateCopy.facts[id].clicked = true;
+    this.setState(stateCopy);
+  }
   render() {
     return (
       <div className={styles.App}>
         <Title />
         <Background />
-        <Grid facts={this.state.facts}/>
+        <Grid facts={this.state.facts} updateClicked={this.updateClicked.bind(this)}/>
         <Rocket />
         <Smoke />
       </div>
