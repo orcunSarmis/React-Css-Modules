@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# React Css Modules
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was my first trial with React library. I learned css modules and how could i implement in a React projecvt.
+
+[Video](https://drive.google.com/file/d/10zIzlpqbtKuB8hjUKSw20Vqn_KfjbMNq/view?usp=sharing)
 
 ## Available Scripts
 
