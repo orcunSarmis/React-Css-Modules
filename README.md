@@ -4,6 +4,8 @@ This project was my first trial with React library. I learned css modules and ho
 
 [Video](https://drive.google.com/file/d/10zIzlpqbtKuB8hjUKSw20Vqn_KfjbMNq/view?usp=sharing)
 
+[NASA Facts App](https://visionary-figolla-c2160d.netlify.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
